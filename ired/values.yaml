@@ -61,8 +61,8 @@ nodered_mount:
    subpath: ""
 
 nodeflow_storage:
-  pvname: ired-amplasia-pv-1
-  pvcname: ired-amplasia-pvc-1
+  pvname: nfs-amplasia-ired
+  pvcname: nfs-amplasia-ired
   size: 10Gi
   mountpath: /mnt/nfsdisk/ired-amplasia
   nfsserver: nfs-external-apps.asia-south1-a.c.iplon-india.internal
